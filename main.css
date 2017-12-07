@@ -1,0 +1,102 @@
+body{
+	background: url("images/p.png");
+
+}
+*{
+	margin:0;
+	padding:0;
+
+
+}
+#wrapp{
+	width: 1000px;
+	min-height:700px;
+margin:0 auto;
+}
+header{
+	width: 100%;
+	height: 60px;
+}
+header h1{
+	text-align: center;
+	line-height: 60px;
+    color:transparent;
+    font-size: 3em;
+    font-family: Lucida Calligraphy;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, #92ec11,#11ecba,#1157ec,#22ce12,#f9af00,#f7f900,#f90000);
+    -webkit-background-clip: text;
+    animation: animate 20s linear infinite;
+    background-size:1000%;
+}
+@keyframes animate{
+	0%{
+		background-position: 0% 100%;
+	}
+50%{
+		background-position: 100% 0%;
+	}
+	100%{
+		background-position: 0% 100%;
+	}
+}
+
+
+section{
+	width: 700px;
+	height: auto;
+	float:left;
+}
+section img{
+	width: 200px;
+	height: 130px;
+	border-radius: 10px;
+	border:2px solid black;
+}
+
+
+.slike .box{
+	width: 200px;
+	height: 130px;
+float:left;
+margin:30px 25px 0 5px;
+
+}
+#te{
+	width: 450px;
+	float:right;
+	margin-top: 30px;
+	text-align: center;
+	font-size: 0.8em;
+font-family: Arial ;
+}
+
+h3{
+	
+	text-align: center;
+	color:#ff8100;
+font-family: Lucida Sans;
+}
+
+
+
+aside {
+	width: 300px;
+	height: auto;
+	background:#EEE1E1;
+	float: left;
+}
+#holder{
+	width: 300px;
+	height: 200px;
+	background:#C4C8EF;
+ 
+}
+#info{
+	width: 260px;
+	height: auto;
+	padding:20px;
+background:#cbfeff;
+
+}
+
